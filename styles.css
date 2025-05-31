@@ -6,11 +6,11 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --text-color: #1f2937;
-    --bg-color: #ffffff;
-    --accent-color: #3b82f6;
+    --primary-color: #144814;
+    --secondary-color: #b38042;
+    --text-color: #2E2E2E;
+    --bg-color: #F8F6F1;
+    --accent-color: #E1C699;
 }
 
 body {
@@ -481,6 +481,36 @@ main {
         transform: translateY(-5px);
     }
 }
+
+.leadership-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.leadership-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.leadership-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-item {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
 
 /* Profile Image Styles */
 .profile-link {
