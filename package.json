@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive personal portfolio website showcasing my professional experience, skills, and projects.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuhamaGetahun/Portifolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RuhamaGetahun/Portifolio/issues"
+  },
+  "homepage": "https://github.com/RuhamaGetahun/Portifolio#readme"
+}
